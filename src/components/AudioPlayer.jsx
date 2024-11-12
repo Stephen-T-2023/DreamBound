@@ -2,7 +2,7 @@ import React from 'react';
 import { useAudio } from './AudioContext';
 
 const AudioPlayer = () => {
-  // destructuring values from the AudioContext to manage audio state and volume
+  // values from the AudioContext to manage audio state and volume
   const { isPlaying, togglePlayPause, volume, handleVolumeChange } = useAudio();
 
   return (
@@ -15,7 +15,7 @@ const AudioPlayer = () => {
       </button>
 
       {/* volume control slider, allowing the user to adjust the audio volume */}
-      <div className='border-2 border-black w-full flex justify-center'>
+      <div className='w-full flex justify-center'>
         <label>Volume: </label>
         
         {/* input range for volume control, with values between 0 and 1, adjusted by small steps */}

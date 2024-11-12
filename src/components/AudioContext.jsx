@@ -38,7 +38,7 @@ export const AudioProvider = ({ children }) => {
     if (!isPlaying) {
       audioRef.current.play();  // Start playing the audio if not already playing
     } else {
-      audioRef.current.play();  // Ensure the audio keeps playing
+      audioRef.current.play();
     }
     setIsPlaying(true);  // Set the state to indicate that audio is playing
   };
