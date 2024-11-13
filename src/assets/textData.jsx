@@ -17,7 +17,7 @@ const textData = {
     },
     embraceNewLife: {
         text: "You have forgotten the old world, living in your ideal dream forever. You no longer care about what happens in reality, only the perfection of your new world.",
-        option1text: "End the Story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null, 
         option2path: null,
@@ -33,7 +33,7 @@ const textData = {
     },
     Confront: {
         text: " You escape the dream, but wake up in the desolate wasteland. The followers are still there, angry at your rebellion. You stand no chance against the armed followers and shortly fall under their assault.",
-        option1text: "End the Story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -41,7 +41,7 @@ const textData = {
     },
     retreat: {
         text: "You are unable to reconcile the dream with reality, losing yourself in the in-between. Your mind breaks, leaving you a shell, neither alive in the dream nor in the real world.",
-        option1text: "End the Story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -65,7 +65,7 @@ const textData = {
     },
     escapeCity: {
         text: "You manage to escape, evading the cultists. However, life in the wasteland is brutal. Resources are scarce, and danger lurks around every corner, but at least you are free.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -81,7 +81,7 @@ const textData = {
     },
     escapePursuers: {
         text: "You manage to escape, evading the cultists. However, life in the wasteland is brutal. Finally wasteland takes its toll, and you die alone, but free, refusing Ygraorra’s grasp to the very end.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -137,7 +137,7 @@ const textData = {
     },
     trueEnding: {
         text: "As you absorb Ygraorra's essence, a surge of dark power flows through you, transforming you into a new Dream Devourer. The dreamscape shifts, reshaping itself into a realm of your design—stunning landscapes filled with shimmering light and haunting shadows. You wield the ability to create or destroy, offering dreams or nightmares to those who enter. With your newfound dominion, you attract followers seeking refuge in their ideal realities, but the echoes of Ygraorra’s whispers linger in your mind, urging you to exploit their fears. As the dreamscape flourishes, you grapple with the moral weight of your choices: will you rule benevolently or with an iron grip? Over time, you find that power corrupts, and the line between hope and despair blurs. You stand at a crossroads, faced with the legacy you wish to forge—one of inspiration or oppression. In the end, the dreamscape reflects your decisions, forever shifting between beauty and darkness, as the haunting laughter of Ygraorra reminds you that power always comes with a price.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -145,7 +145,7 @@ const textData = {
     },
     destroyDivinity: {
         text: "With a final surge of energy, you shatter Ygraorra’s dark power, watching as the dreamscape collapses around you, dissolving into a swirling vortex of light and shadow. The oppressive realm he created disintegrates, leaving nothing but emptiness in its wake. As the remnants of his influence vanish, you feel a profound sense of liberation. The dreams of those he enslaved are now free, but the dreamscape itself is gone, replaced by a vast void. Though the world of dreams has been destroyed, you understand that true freedom lies in the choices people make. You become a beacon of hope in this new reality, guiding the dreamers towards their own paths and reminding them that they can create their own realities. In the silence that follows, you embrace the unknown, knowing that even without a dreamscape, that the ideal reality can still be made by the choices of the people.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -153,7 +153,7 @@ const textData = {
     },
     defeated: {
         text: "As you focus your energy, you realize too late that Ygraorra is channeling his own dark power against you. Your attack is met with an explosion of shadows that engulfs you. The darkness wraps around you, suffocating your light. You feel your strength drain as Ygraorra feeds off your energy, and you are thrown to the ground, helpless. You succumb to Ygraorra’s power, becoming yet another lost soul within his nightmarish realm. Your essence is absorbed into the shadows, and you exist in torment, forever trapped in a cycle of despair.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -161,7 +161,7 @@ const textData = {
     },
     reasoning: {
         text: "You stand before Ygraorra, heart pounding with a desperate hope that reason might reach the ancient god. You attempt to appeal to the remnants of humanity within him, believing there is a chance for redemption. But instead of understanding, a cold darkness envelops you. Ygraorra's power surges forth, overwhelming you with crushing force. Pain radiates through your being as the shadows consume your light, extinguishing your spirit. In your final moments, you feel the weight of despair settling over the dreamscape, a haunting reminder of your futile struggle. As your consciousness fades, the world around you darkens, forever marked by Ygraorra's wrath.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -169,7 +169,7 @@ const textData = {
     },
     bornLeader: {
         text: "As the dust settles from the destruction of the archive, the truth about Ygraorra and his oppressive reign slips into obscurity. You stand as the leader of the resistance, rallying those who still fight against the darkness, but doubt lingers in the air. The teachings that could have illuminated the path to liberation are lost, leaving your followers to navigate their struggle in ignorance. While the immediate threat of Ygraorra’s physical presence may have diminished, his influence seeps into the minds of the unwary, whispering fears and desires that threaten to undermine your efforts. In the shadows, remnants of his power persist, waiting for the right moment to reclaim their hold. You lead your people with determination, yet the specter of Ygraorra looms ever-present, a reminder that true freedom may remain just out of reach as long as his legacy endures. You resolve to uncover a new path forward, hoping to ignite a spark of rebellion that could one day reveal the hidden truths and finally banish the god from their dreams.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -185,7 +185,7 @@ const textData = {
     },
     submitBetrayers: {
         text: "Choosing to submit, you negotiate with your general, sacrificing your ideals for the safety of your people. Although the betrayal stings, your willingness to compromise ensures that your followers are spared from further conflict. In the aftermath, your authority is weakened, and the general's influence grows, sowing distrust among your ranks. While your people survive, they remain unaware of the true nature of their leader’s betrayal, living in a fragile peace that could shatter at any moment. You become a shadow of your former self, knowing that you traded your vision for a temporary respite, haunted by the whispers of treachery that linger in the air.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -193,7 +193,7 @@ const textData = {
     },
     fightBack: {
         text: "Opting to fight back, you confront your general with unwavering resolve. As the clash ensues, your bravery inspires your loyal soldiers to rally behind you, igniting a fierce rebellion against the betrayal. Though the battle is fierce, your willingness to stand against treachery transforms you into a martyr for the cause. In your final moments, as you fall, your followers take up the fight with renewed vigor, determined to honor your sacrifice. The resistance grows stronger in your absence, fueled by your legacy of defiance, ultimately striking a blow against Ygraorra’s lingering influence. Your name becomes a rallying cry for those who dare to resist, ensuring that the fight for freedom continues in your spirit.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -209,7 +209,7 @@ const textData = {
     },
     moleDiscovered: {
         text: "Your heart races as the confrontation unfolds. Accusations fly, and the weight of betrayal bears down on you. Despite your attempts to defend yourself, the evidence is overwhelming. The resistance members, once your comrades, now glare at you with a mix of anger and disappointment. In a swift judgment, they decide your fate. Stripped of your title and cast aside, you are exiled from the very cause you sought to infiltrate. As you walk away from the camp, their shouts of betrayal echo in your ears, a haunting reminder of your choices. Though you planned to undermine the resistance, you find yourself alone in a world fraught with danger. With Ygraorra’s influence still looming, you realize that your betrayal has left you with no allies, no path to redemption, and a future shrouded in uncertainty.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -225,7 +225,7 @@ const textData = {
     },
     activeBetrayer: {
         text: "After your betrayal, Ygraorra manifests in your mind, showering you with praise for your unwavering loyalty. He bestows upon you the 'honor' of joining his dream, not as a mere dreamer, but as a warden of the dream realm—one of the few who can traverse both the dreamscape and reality with awareness. Your new existence is filled with unimaginable luxuries and immense power within his dream empire. You command legions of dreamers, shaping their nightmares and fantasies at will. Yet, beneath the surface of your newfound authority lies a gnawing ache—the haunting memories of those you betrayed. With each passing day, the weight of your choices presses heavily on your conscience. The price of your betrayal is a shattered peace of mind, binding you to Ygraorra’s will forever. You are now a puppet in his grand design, enjoying the spoils of your treachery while knowing you can never escape the shadows of your past.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,
@@ -233,7 +233,7 @@ const textData = {
     },
     doubleCrossed: {
         text: "Ygraorra’s followers express their gratitude for your betrayal, celebrating the downfall of the resistance. Yet, once their victory is secured, they no longer see you as valuable. Despite your cunning, they regard you as a mere weak human, unworthy of standing among their ranks. Without hesitation, they cast you into the dream world, stripping you of your agency. In this fabricated paradise, the comforts of luxury surround you, but the guilt of your actions festers within. Nightmares, born from the memories of those you sacrificed for your selfish desires, haunt your every moment. Trapped in an eternity of fear, you are forced to confront the truth of your choices, living under the oppressive weight of remorse. The dreams that once promised escape become your prison, a constant reminder that betrayal brings not freedom, but a haunting desolation that you cannot escape.",
-        option1text: "End the story.",
+        option1text: "Restart the Story.",
         option2text: "Reflect on Choices.",
         option1path: null,
         option2path: null,

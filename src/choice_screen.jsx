@@ -31,7 +31,7 @@ const Choices = () => {
                 if (selectedOption === "Reflect on Choices.") {
                     navigate('/reflect', {state: {choicesHistory} });
                 } else {
-                    navigate('/end');
+                    navigate('/choice');
                 }
             } else if (nextPath && textData[nextPath]) {
                 setChoicesHistory(prevChoices => [
@@ -58,7 +58,7 @@ const Choices = () => {
 
             {/* main text display area, showing story content and options */}
             <div className="bg-no-repeat bg-cover bg-center bg-fixed w-screen h-4/6 flex flex-wrap justify-center items-center">
-                <div className="bg-paynegrey opacity-80 border-2 border-black rounded w-11/12 h-5/6 flex justify-center">
+                <div className="bg-buttonpressed opacity-90 border-2 border-black rounded w-11/12 h-5/6 flex justify-center">
                     <h1 className="font-body 2xl:text-2xl xl:text-2xl lg:text-1xl md:text-1xl sm:text-1xl text-1xl overflow-y-auto text-whitesmoke p-4 break-keep flex justify-center items-center">{textFill.text}</h1>
                 </div>
             </div>

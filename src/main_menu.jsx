@@ -44,35 +44,24 @@ const Menu = () => {
                     onClick={() => {
                         startClick();  // navigate to '/choice'
                         togglePlay();  // play audio
-                    }}  
-                    className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed"
-                >
+                    }} className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed">
                     <h2 className="font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl">Start Game</h2>
                 </button>
 
                 {/* settings button that opens the settings */}
-                <button 
-                    onClick={() => setShowSettings(true)} 
-                    className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed"
-                >
+                <button onClick={() => setShowSettings(true)} className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed">
                     <h2 className="font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl">Settings</h2>
                 </button>
 
                 {/* link to GitHub profile, opening in a new tab */}
-                <a 
-                    className="bg-outerspace text-whitesmoke border-2 border-black rounded font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed" 
-                    href="https://github.com/Stephen-T-2023" 
-                    target="blank"
-                >
+                <a className="bg-outerspace text-whitesmoke border-2 border-black rounded font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed" href="https://github.com/Stephen-T-2023" target="blank">
                     Github
                 </a>
 
                 {/* exit game button, not currently functional but styled like other buttons */}
-                <button 
-                    className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed"
-                >
+                <a className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed" href="https://google.com">
                     <h2 className="font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl">Exit Game</h2>
-                </button>
+                </a>
             </div>
 
             {/* settings component, controlled by showSettings state */}
