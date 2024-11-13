@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import './App.css';
 import Choices from './choice_screen';
 import Menu from './main_menu';
 import { AudioProvider } from "./components/AudioContext";
