@@ -15,7 +15,7 @@ export default function Settings({ onClose, visible }) {
                 <div className="font-heading text-5xl w-full flex justify-center">Audio Settings</div>
                 
                 {/* AudioPlayer component to control audio playback */}
-                <div className="w-full">
+                <div className="w-full flex justify-center items-center">
                     <AudioPlayer />
                 </div>
                 
