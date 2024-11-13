@@ -15,7 +15,9 @@ export default function Settings({ onClose, visible }) {
                 <div className="font-heading text-5xl w-full flex justify-center">Audio Settings</div>
                 
                 {/* AudioPlayer component to control audio playback */}
-                <AudioPlayer />
+                <div className="w-full">
+                    <AudioPlayer />
+                </div>
                 
                 {/* Button to close the settings modal */}
                 <button onClick={onClose} className="bg-outerspace text-whitesmoke border-2 border-black rounded w-8/12 h-24 gap-4 flex justify-center items-center focus:bg-buttonpressed">Exit Settings</button>
