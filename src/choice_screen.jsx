@@ -33,7 +33,6 @@ const Choices = () => {
                 } else {
                     navigate('/end');
                 }
-                
             } else if (nextPath && textData[nextPath]) {
                 setChoicesHistory(prevChoices => [
                     ...prevChoices,
