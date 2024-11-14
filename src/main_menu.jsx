@@ -27,7 +27,6 @@ const Menu = () => {
     return (
         // menu screen, setting up full-screen layout and centering elements
         <div className="bg-onyx w-screen h-screen flex flex-wrap justify-center items-center">
-            
             {/* holds all the buttons and the game title, with layout and styling */}
             <div className="bg-paynegrey border-2 border-black rounded w-11/12 h-5/6 space-y-2 flex flex-wrap justify-center">
                 
@@ -35,7 +34,7 @@ const Menu = () => {
                 <div className="bg-paynegrey"></div>
 
                 {/* game title section with styling for centered text */}
-                <div className="bg-starrysky text-ash border-2 border-black rounded-xl w-8/12 h-32 gap-4 flex justify-center items-center">
+                <div className="text-ash border-2 border-black rounded-xl w-8/12 h-32 gap-4 flex justify-center items-center" style={{ backgroundImage: `url(${"https://pixabay.com/get/g57e948b0402ba836ac442a5eccc67772133776dccb61549db7edc600476162c2ed9bc50375d3ff5c026f57ec5dd08e27_1280.jpg"})`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                     <h1 className="font-heading 2xl:text-8xl xl:text-8xl lg:text-7xl md:text-7xl sm:text-6xl text-4xl">DreamBound</h1>
                 </div>
 

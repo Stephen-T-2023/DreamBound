@@ -18,9 +18,6 @@ export default {
         heading: ["Changa", "sans-serif"],
         body: ["Tenor Sans", "sans-serif"],
       },
-      backgroundImage: {
-        starrysky: "url('./assets/starrysky.jpg')"
-      },
     },
     screens: {
       'sm': '640px',

@@ -1,5 +1,3 @@
-// ReflectChoicesScene.jsx
-
 import { useNavigate, useLocation } from "react-router-dom";
 
 const ReflectChoicesScene = () => {
@@ -16,7 +14,7 @@ const ReflectChoicesScene = () => {
 
     return (
         // Outer div for background styling, making the scene fullscreen and centering the content
-        <div className="bg-starrysky w-screen h-screen flex justify-center items-center">
+        <div className="w-screen h-screen flex justify-center items-center" style={{ backgroundImage: `url(${"https://pixabay.com/get/g57e948b0402ba836ac442a5eccc67772133776dccb61549db7edc600476162c2ed9bc50375d3ff5c026f57ec5dd08e27_1280.jpg"})`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
             {/* Main content area with background image, padding, and text styling */}
             <div className="bg-onyx text-ash border-2 border-black rounded-xl p-10 space-y-4 text-center w-11/12 max-w-screen-md opacity-90 font-body">
                 {/* Title of the page */}

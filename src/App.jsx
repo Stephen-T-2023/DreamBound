@@ -5,7 +5,6 @@ import { AudioProvider } from "./components/AudioContext";
 import EndScene from "./end_scene";
 import ReflectChoicesScene from "./reflect_choices";
 
-
 function App() {
 
   return (

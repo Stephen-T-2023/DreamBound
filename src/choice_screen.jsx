@@ -18,9 +18,6 @@ const Choices = () => {
     // sets the initial text content on the screen and updates as options are selected
     const [textFill, setTextFill] = useState(textData.start);
 
-    // stores the URL of the background image for the choices page in case a feature where the background can change wants to be added in the future
-    const imageURL = (textFill.backgroundImage);
-
     // track the users choice history
     const [choicesHistory, setChoicesHistory] = useState([]);
 
@@ -31,7 +28,7 @@ const Choices = () => {
                 if (selectedOption === "Reflect on Choices.") {
                     navigate('/reflect', {state: {choicesHistory} });
                 } else {
-                    navigate('/choice');
+                    navigate('/');
                 }
             } else if (nextPath && textData[nextPath]) {
                 setChoicesHistory(prevChoices => [
@@ -47,8 +44,7 @@ const Choices = () => {
 
     return (
         // setting the background and layout
-        <div className="w-screen h-screen flex flex-wrap justify-center bg-no-repeat bg-cover" style={{backgroundImage: `url(${imageURL})`}}>
-            
+        <div className="w-screen h-screen flex flex-wrap justify-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${textFill.backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
             {/* top navigation bar with Home, Github, and Settings buttons */}
             <div className="font-heading 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl w-full h-20 flex">
                 <button onClick={homeClick} className="bg-ash border-2 border-black rounded w-1/2 h-20 focus:bg-buttonpressed">Home</button>
